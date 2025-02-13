@@ -1,0 +1,27 @@
+name="sairam"
+b=name.upper()
+c=name.lower()
+d=name.capitalize()
+e=name.swapcase()
+print(b)
+print(c)
+print(d)
+print(e)
+
+
+
+#string checking method
+str="abcd"
+s1="1234a"
+s="1123"
+s2="sairaM"
+s3="BHAI"
+s4="my name is bhai "
+s5="The animal"
+print(str.isalpha())
+print(s1.isdigit())
+print(s.isalnum())
+print(s2.islower())
+print(s3.isupper())
+print(s4.isspace())
+print(s5.istitle())
