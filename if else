@@ -1,0 +1,35 @@
+x = 11
+
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
+O/P: x is greater than 5
+
+EX-2
+ x = 15
+
+if x > 20:
+    print("x is greater than 20")
+elif x > 10:
+    print("x is greater than 10 but less than or equal to 20")
+else:
+    print("x is 10 or less")
+
+O/P:x is greater than 10 but less than or equal to 20
+
+EX-3
+x = 8
+y = 10
+
+if x > 5:
+    if y > 5:
+        print("Both x and y are greater than 5")
+    else:
+        print("x is greater than 5, but y is not")
+else:
+    print("x is not greater than 5")
+
+O/P:
+Both x and y are greater than 5
